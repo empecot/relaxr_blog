@@ -1,0 +1,287 @@
+/*
+Project Name: Relaxr Blog
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html {
+  font-family:'Open Sans', sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #033048;
+}
+.logotop {
+    margin-top: 25px;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+ }
+.navs {
+  float: right;
+  margin-top: 40px;
+  width: 700px;
+}
+      .topnavs {
+        text-align: right;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 24px;
+        color: #f9e42e;
+        margin-left: 40px;
+      }
+
+aside {
+  width: 300px;
+  height: 2000px;
+  float: right;
+  clear: both;
+  background-color: #f0efef;
+  padding-right: 65px;
+  padding-left: 10px;
+  text-align: left;
+  overflow: hidden;
+  display: inline;
+}
+      h4 {
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      .categories {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 50px;
+        padding-top: 75px;
+      }
+.main1 {
+  width: 950px;
+  height: 2000px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 100px;
+  background-color: #f0efef;
+  float: left;
+  clear: left;
+  padding-right: 20px;
+}
+        h3 {
+          font-size: 40px;
+          font-weight: 600;
+          text-align: left;
+        }
+        #rowing {
+          float: right;
+          width: 825px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 22px;
+          font-weight: 300;
+        }
+        #content1 {
+          padding-right: 100px;
+          padding-top: 60px;
+          }
+        h5 {
+          font-size: 22px;
+          font-weight: 600;
+        }
+        .firstcharacter { 
+          float: left;
+          font-size: 48px;
+          font-weight: 600;
+        }
+        #readmore {
+          font-size: 22px;
+          font-weight: 600;
+          text-align: right;
+          padding-top: 50px;
+          padding-bottom: 25px;
+        }
+        hr {
+
+        }
+
+  .main2 {
+  width: 950px;
+  height: 1000px;
+  text-align: left;
+  padding-left: 100px;
+  background-color: #f0efef;
+  float: left;
+  clear: both;
+  padding-right: 20px;
+}
+        h3 {
+          font-size: 40px;
+          font-weight: 600;
+          text-align: left;
+        }
+        #rowing {
+          float: right;
+          width: 825px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 22px;
+          font-weight: 300;
+        }
+        #content1 {
+          padding-right: 100px;
+          padding-top: 60px;
+          }
+        h5 {
+          font-size: 22px;
+          font-weight: 600;
+        }
+        .firstcharacter { 
+          float: left;
+          font-size: 48px;
+          font-weight: 600;
+        }
+        #readmore {
+          font-size: 22px;
+          font-weight: 600;
+          text-align: right;
+          padding-top: 50px;
+          padding-bottom: 25px;
+        }
+        hr {
+
+        }
+.ad_unit {
+  background-color: white;
+  width: 225px;
+  height: 600px;
+  color: #033048;
+  margin-top: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 32px;
+}
+#signup {
+  height: 100px;
+  background-color: #f9e42e;
+  text-align: center;
+  padding-top: 30px;
+  clear: both;
+}
+#button {
+  color: white;
+  background-color: #033048;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 4px;
+  height: 50px;
+  width: 300px;
+  padding-top: 10px;
+  margin: -10px;
+  }
+footer {
+  background-color: #121212;
+}
+        #footer {
+          clear:both;
+          font-weight: extra-bold;
+          font-size: 48px;
+          background-color: #121212;
+        }
+        #logo {
+          padding: 60px;
+          padding-bottom: 30px;
+          color: #f9e42e;
+          font-size: 48px;
+          font-weight: 800;
+        }
+        .copyright {
+          font-size: 18px;
+          font-weight: 300;
+          color: white;
+          padding-top: 80px;
+          padding-bottom: 50px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
