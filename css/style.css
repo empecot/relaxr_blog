@@ -148,55 +148,6 @@ aside {
         hr {
 
         }
-
-  .main2 {
-  width: 950px;
-  height: 1000px;
-  text-align: left;
-  padding-left: 100px;
-  background-color: #f0efef;
-  float: left;
-  clear: both;
-  padding-right: 20px;
-}
-        h3 {
-          font-size: 40px;
-          font-weight: 600;
-          text-align: left;
-        }
-        #rowing {
-          float: right;
-          width: 825px;
-          margin-top: 30px;
-          margin-bottom: 30px;
-        }
-        p {
-          font-size: 22px;
-          font-weight: 300;
-        }
-        #content1 {
-          padding-right: 100px;
-          padding-top: 60px;
-          }
-        h5 {
-          font-size: 22px;
-          font-weight: 600;
-        }
-        .firstcharacter { 
-          float: left;
-          font-size: 48px;
-          font-weight: 600;
-        }
-        #readmore {
-          font-size: 22px;
-          font-weight: 600;
-          text-align: right;
-          padding-top: 50px;
-          padding-bottom: 25px;
-        }
-        hr {
-
-        }
 .ad_unit {
   background-color: white;
   width: 225px;
