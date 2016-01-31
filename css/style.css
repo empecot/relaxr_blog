@@ -59,6 +59,7 @@ header {
     float: left;
     width: 20%;
     margin-left: 30px;
+    padding-left: 20px;
  }
 .navs {
   float: right;
@@ -75,59 +76,60 @@ header {
       }
 
 aside {
-  width: 300px;
-  height: 2000px;
+  width: 320px;
+  height: 1700px;
   float: right;
   clear: both;
   background-color: #f0efef;
-  padding-right: 65px;
+  padding-right: 70px;
   padding-left: 10px;
+  padding-top: 60px;
   text-align: left;
   overflow: hidden;
-  display: inline;
+  margin-left: -15;
+  
 }
       h4 {
         font-size: 32px;
-        font-weight: 800;
         margin-top: 50px;
         margin-bottom: 20px;
+        font-weight: 800;
       }
       .categories {
         font-size: 24px;
         font-weight: 300;
         line-height: 30px;
         margin-bottom: 50px;
-        padding-top: 75px;
+       
       }
-.main1 {
-  width: 950px;
-  height: 2000px;
+
+.posts {
+  width: 810px;
+  height: 1700px;
   text-align: left;
-  padding-left: 100px;
-  padding-top: 100px;
-  background-color: #f0efef;
   float: left;
-  clear: left;
-  padding-right: 20px;
-}
+  background-color: #f0efef;
+  padding-top: 60px;
+  padding-left: 85px;
+  }
         h3 {
           font-size: 40px;
           font-weight: 600;
           text-align: left;
+          padding-bottom: 20px;
         }
         #rowing {
-          float: right;
-          width: 825px;
+          width: 550px;
           margin-top: 30px;
           margin-bottom: 30px;
+          padding-bottom: 15px;
         }
-        p {
+        .content {
           font-size: 22px;
           font-weight: 300;
-        }
-        #content1 {
-          padding-right: 100px;
-          padding-top: 60px;
+          padding-right: 75px;
+          padding-top: 15px;
+          line-height: 30px;
           }
         h5 {
           font-size: 22px;
@@ -142,12 +144,10 @@ aside {
           font-size: 22px;
           font-weight: 600;
           text-align: right;
-          padding-top: 50px;
+          padding-top: 35px;
           padding-bottom: 25px;
         }
-        hr {
-
-        }
+        hr {}
 .ad_unit {
   background-color: white;
   width: 225px;
