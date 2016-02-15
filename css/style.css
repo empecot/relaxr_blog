@@ -117,6 +117,9 @@ aside {
         margin-bottom: 50px;
        
       }
+      #more {
+        display: none;
+      }
       .ad_unit {
         background-color: white;
         width: 225px;
@@ -130,7 +133,7 @@ aside {
 
 .posts {
   width: 810px;
-  height: 1700px;
+  height: 100%;
   text-align: left;
   float: left;
   background-color: #f0efef;
@@ -156,7 +159,7 @@ aside {
           padding-top: 15px;
           line-height: 30px;
           }
-        h5 {
+        #learn_more {
           font-size: 22px;
           font-weight: 600;
         }
@@ -165,15 +168,42 @@ aside {
           font-size: 48px;
           font-weight: 600;
         }
-        #readmore {
+        #readmore1 {
           font-size: 22px;
           font-weight: 600;
           text-align: right;
           padding-top: 35px;
           padding-bottom: 25px;
         }
-        hr {}
-
+        #readless1 {
+          display: none;
+          font-size: 22px;
+          font-weight: 600;
+          text-align: right;
+          padding-top: 35px;
+          padding-bottom: 25px;
+        }
+          #readmore2 {
+          font-size: 22px;
+          font-weight: 600;
+          text-align: right;
+          padding-top: 35px;
+          padding-bottom: 25px;
+        }
+          #readless2 {
+          display: none;
+          font-size: 22px;
+          font-weight: 600;
+          text-align: right;
+          padding-top: 35px;
+          padding-bottom: 25px;
+        }
+        .post1_para2 {
+          display: none;
+        }
+        .post2_para2 {
+          display: none;
+        }
 #signup {
   height: 100px;
   background-color: #f9e42e;
@@ -192,6 +222,18 @@ aside {
   padding-top: 10px;
   margin: -10px;
   }
+#no_sign_ups {
+  display: none;
+  color: white;
+  background-color: #033048;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 4px;
+  height: 50px;
+  width: 300px;
+  padding-top: 10px;
+  margin: -10px;
+}
 
 footer {
   background-color: #121212;
